@@ -1,0 +1,216 @@
+{
+    "initial_player_position": {
+        "x": 361,
+        "y": 2173
+    },
+    "swarms": [
+        {
+            "id": "OOP-0001",
+            "units": [],
+            "position": {
+                "x": 1167,
+                "y": 2153
+            },
+            "radio": 10,
+            "enemy_number": 25,
+            "frequency": 4,
+            "hp": 100,
+            "disabled": false,
+            "is_main": false,
+            "enemy_template": {
+                "animation-to-load": "moving",
+                "is-moving": false,
+                "position": {
+                    "x": 100,
+                    "y": 100
+                },
+                "velocity": {
+                    "x": 0,
+                    "y": 0.4
+                },
+                "hp": 90,
+                "alive": true
+            }
+        },
+        {
+            "id": "OOP-0002",
+            "units": [],
+            "position": {
+                "x": 233,
+                "y": 455
+            },
+            "radio": 10,
+            "enemy_number": 25,
+            "frequency": 4,
+            "hp": 100,
+            "disabled": false,
+            "is_main": false,
+            "enemy_template": {
+                "animation-to-load": "moving",
+                "is-moving": false,
+                "position": {
+                    "x": 100,
+                    "y": 100
+                },
+                "velocity": {
+                    "x": 0,
+                    "y": 0.4
+                },
+                "hp": 90,
+                "alive": true
+            }
+        },
+        {
+            "id": "OOP-0003",
+            "units": [],
+            "position": {
+                "x": 722,
+                "y": 236
+            },
+            "radio": 10,
+            "enemy_number": 25,
+            "frequency": 4,
+            "hp": 100,
+            "disabled": false,
+            "is_main": false,
+            "enemy_template": {
+                "animation-to-load": "moving",
+                "is-moving": false,
+                "position": {
+                    "x": 100,
+                    "y": 100
+                },
+                "velocity": {
+                    "x": 0,
+                    "y": 0.4
+                },
+                "hp": 90,
+                "alive": true
+            }
+        },
+        {
+            "id": "OOP-0004",
+            "units": [],
+            "position": {
+                "x": 1881,
+                "y": 882
+            },
+            "radio": 10,
+            "enemy_number": 45,
+            "frequency": 3,
+            "hp": 100,
+            "disabled": false,
+            "is_main": false,
+            "enemy_template": {
+                "animation-to-load": "moving",
+                "is-moving": false,
+                "position": {
+                    "x": 100,
+                    "y": 100
+                },
+                "velocity": {
+                    "x": 0,
+                    "y": 0.4
+                },
+                "hp": 90,
+                "alive": true
+            }
+        },
+        {
+            "id": "OOP-0005",
+            "units": [],
+            "position": {
+                "x": 3606,
+                "y": 515
+            },
+            "radio": 10,
+            "enemy_number": 60,
+            "frequency": 3,
+            "hp": 150,
+            "disabled": false,
+            "is_main": true,
+            "enemy_template": {
+                "animation-to-load": "moving",
+                "is-moving": false,
+                "position": {
+                    "x": 100,
+                    "y": 100
+                },
+                "velocity": {
+                    "x": 0,
+                    "y": 0.4
+                },
+                "hp": 90,
+                "alive": true
+            }
+        },
+        {
+            "id": "OOP-0006",
+            "units": [],
+            "position": {
+                "x": 2932,
+                "y": 2153
+            },
+            "radio": 10,
+            "enemy_number": 60,
+            "frequency": 3,
+            "hp": 150,
+            "disabled": false,
+            "is_main": true,
+            "enemy_template": {
+                "animation-to-load": "moving",
+                "is-moving": false,
+                "position": {
+                    "x": 100,
+                    "y": 100
+                },
+                "velocity": {
+                    "x": 0,
+                    "y": 0.4
+                },
+                "hp": 90,
+                "alive": true
+            }
+        }
+    ],
+    "objectives": [
+        {
+            "id": "OBJ-0001",
+            "type": "research",
+            "title": "OOP Knowledge",
+            "description": "We already confirmed that our attackers are from the planet OOP. Most people think we have to attack right now because our enemy is just starting their tactical operations but we are pretty sure that more knowledge is required in order to start an attack. One part of your mission is the gathering of a few pieces of mineral used by this mo....ers presumably used as a vital resource. In addition, we have to kill a bunch of these aliens to show some of our artillery power. Be with the monadic forces, liutenant!",
+            "locations": [
+                {
+                    "x": 2698,
+                    "y": 116,
+                    "discovered": false
+                },
+                {
+                    "x": 572,
+                    "y": 528,
+                    "discovered": false
+                },
+                {
+                    "x": 698,
+                    "y": 2259,
+                    "discovered": false
+                },
+                {
+                    "x": 2133,
+                    "y": 1378,
+                    "discovered": false
+                },
+                {
+                    "x": 3732,
+                    "y": 1344,
+                    "discovered": false
+                },
+                {
+                    "x": 3639,
+                    "y": 191,
+                    "discovered": false
+                }
+            ]
+        }
+    ]
+}
